@@ -1,0 +1,25 @@
+home.html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello</title>
+    </head>
+        <body>
+            <fieldset>
+            <form method="post" action="">
+                {% csrf_token %}
+                <label>Name:
+                    <input type="text" id="name" name="name">
+                </label><br><br>
+                <label>Email
+                    <input type="text" id="email" name="email">
+                </label><br><br>
+                <label>Address:
+                    <input type="text" id="address" name="address">
+                </label><br><br>
+                <button>SUBMIT</button>
+            </form>
+        </fieldset>
+        </body>
+        </html>
